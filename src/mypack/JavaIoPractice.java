@@ -3,10 +3,27 @@ package mypack;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
+/**
+ * <h2> JavaIoPractice Class</h2>
+ * <p>
+ * Process for Displaying JavaIoPractice
+ * </p>
+ * 
+ * @author User
+ *
+ */
 public class JavaIoPractice {
 
+	/**
+	 * <h2> main</h2>
+	 * <p>
+	 * 
+	 * </p>
+	 *
+	 * @param args
+	 * @return void
+	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		try {
 			FileOutputStream fo = new FileOutputStream("C:\\TextFile\\file2.txt");
 			byte[] arr = { 65, 66, 67, 68, 69 };

@@ -6,10 +6,27 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.Date;
 
+/**
+ * <h2> Tutorial6 Class</h2>
+ * <p>
+ * Process for Displaying Tutorial6
+ * </p>
+ * 
+ * @author User
+ *
+ */
 public class Tutorial6 {
 
+	/**
+	 * <h2> main</h2>
+	 * <p>
+	 * 
+	 * </p>
+	 *
+	 * @param args
+	 * @return void
+	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		try {
 			File file = new File("C:\\TextFile\\file2.txt");
 			Date d = new Date(file.lastModified());

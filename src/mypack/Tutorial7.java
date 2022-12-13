@@ -2,10 +2,28 @@ package mypack;
 
 import java.util.Scanner;
 
+/**
+ * <h2> Tutorial7 Class</h2>
+ * <p>
+ * Process for Displaying Tutorial7
+ * </p>
+ * 
+ * @author User
+ *
+ */
 public class Tutorial7 {
 
+	/**
+	 * <h2> main</h2>
+	 * <p>
+	 * 
+	 * </p>
+	 *
+	 * @param args
+	 * @return void
+	 */
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int arr[] = new int[10];
 		int a;
 		for (int i = 1; i <= 10; i++) {

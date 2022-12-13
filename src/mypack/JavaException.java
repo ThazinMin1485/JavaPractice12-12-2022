@@ -4,10 +4,29 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
+/**
+ * <h2> JavaException Class</h2>
+ * <p>
+ * Process for Displaying JavaException
+ * </p>
+ * 
+ * @author User
+ *
+ */
 public class JavaException {
 
+	/**
+	 * <h2> main</h2>
+	 * <p>
+	 * 
+	 * </p>
+	 *
+	 * @param args
+	 * @throws IOException
+	 * @return void
+	 */
+	@SuppressWarnings("resource")
 	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
 		
 		try {
 			int arr[] = new int[5];
